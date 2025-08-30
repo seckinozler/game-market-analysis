@@ -30,20 +30,14 @@ The goal is to understand **genre, platform, developer, and publisher breakdowns
 
 ## 📂 Repository Structure  
 
-- 📓 **Game_Market_Analysis_TR.ipynb** : Turkish Jupyter Notebook containing the analysis and modeling steps  
-- 🐍 **Game_Market_Analysis_TR.py** : Python script version of the notebook  
-- 📓 **Game_Market_Analysis_EN.ipynb** : English Jupyter Notebook containing the analysis and modeling steps  
-- 🐍 **Game_Market_Analysis_EN.py** : Python script version of the notebook  
-- 📊 **rawg_5000_games.csv** : Dataset file extracted via RAWG API (top 5000 games by Metacritic)  
-- 📄 **README.md** : Project description and documentation  
-- 📸 **/screenshots/** : Folder containing key analysis charts (for README visualization)  
+- 📓 🇹🇷 [`Game_Market_Analysis_TR.ipynb`](Game_Market_Analysis_TR.ipynb) : Turkish Jupyter Notebook containing the analysis and modeling steps  
+- 🐍 🇹🇷 [`Game_Market_Analysis_TR.py`](Game_Market_Analysis_TR.py) : Python script version of the notebook 
+- 📓 🇺🇸 [`Game_Market_Analysis_EN.ipynb`](Game_Market_Analysis_EN.ipynb) : English Jupyter Notebook containing the analysis and modeling steps  
+- 🐍 🇺🇸 [`Game_Market_Analysis_EN.py`](Game_Market_Analysis_EN.py) : Python script version of the notebook 
+- 📊 [`rawg_5000_games.csv`](rawg_5000_games.csv) : Dataset file extracted via RAWG API (top 5000 games by Metacritic)  
+- 📄 [`README.md`](README.md) : Project description and documentation
+- 📸 [`screenshots`](screenshots): Folder containing key analysis charts (for README visualization)  
 
-- 🇹🇷 [`Game_Market_Analysis_TR.ipynb`](Game_Market_Analysis_TR.ipynb) : Turkish Jupyter Notebook containing the analysis and modeling steps   
-- 🇹🇷 [`Game_Market_Analysis_TR.py`](Game_Market_Analysis_TR.py) : Python script version of the notebook 
-- 🇺🇸 [`Game_Market_Analysis_EN.ipynb`](Game_Market_Analysis_EN.ipynb) : English Jupyter Notebook containing the analysis and modeling steps  
-- 🇺🇸 [`Game_Market_Analysis_EN.py`](Game_Market_Analysis_EN.py) : Python script version of the notebook  
-- 📊 [`Companies.csv`](Companies.csv) : CSV file extracted and created from Wikipedia data
-- 📄 [`README.md`](README.md) : Project description and documentation  
 ---
 
 ## 📊 Key Findings  
@@ -111,3 +105,11 @@ The goal is to understand **genre, platform, developer, and publisher breakdowns
 
 Game development is not only strategy and data, but also **passion**.  
 For enthusiasts, we’ve included a special list of **95+ Metacritic “unforgettable classics”**, as inspiration for future projects.  
+
+## 📬 Contact
+
+- **GitHub:** [github.com/seckinozler](https://github.com/seckinozler)  
+- **LinkedIn:** [linkedin.com/in/seckinozler](https://www.linkedin.com/in/seckinozler/)  
+- **Website:** [seckinsafakozler.wixsite.com/portfolio](https://seckinsafakozler.wixsite.com/portfolio)
+
+---
