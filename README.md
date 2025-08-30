@@ -38,6 +38,19 @@ To replicate the analysis:
 
 ---
 
+## 📑 Dataset Summary  
+
+- Source: [RAWG Video Games Database API](https://rawg.io/apidocs)  
+- Dataset size: **5000 games**, ranked by Metacritic score  
+- Key variables:  
+  - `metacritic_x` → Metacritic score  
+  - `genres` → Game genres  
+  - `developers`, `publishers` → Developers & publishers  
+  - `stores` → Platforms/stores released on  
+  - `ratings_count`, `added` → User attention metrics  
+
+---
+
 ## 📂 Repository Structure  
 
 - 📓 🇹🇷 [`Game_Market_Analysis_TR.ipynb`](Game_Market_Analysis_TR.ipynb) : Turkish Jupyter Notebook containing the analysis and modeling steps  
@@ -96,18 +109,6 @@ To replicate the analysis:
 ### Store Analysis  
 ![Store Analysis](screenshots/store_analysis.png)  
 
----
-
-## 📑 Dataset Summary  
-
-- Source: [RAWG Video Games Database API](https://rawg.io/apidocs)  
-- Dataset size: **5000 games**, ranked by Metacritic score  
-- Key variables:  
-  - `metacritic_x` → Metacritic score  
-  - `genres` → Game genres  
-  - `developers`, `publishers` → Developers & publishers  
-  - `stores` → Platforms/stores released on  
-  - `ratings_count`, `added` → User attention metrics  
 
 ---
 
