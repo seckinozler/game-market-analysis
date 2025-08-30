@@ -38,6 +38,12 @@ The goal is to understand **genre, platform, developer, and publisher breakdowns
 - 📄 **README.md** : Project description and documentation  
 - 📸 **/screenshots/** : Folder containing key analysis charts (for README visualization)  
 
+- 🇹🇷 [`Game_Market_Analysis_TR.ipynb`](Game_Market_Analysis_TR.ipynb) : Turkish Jupyter Notebook containing the analysis and modeling steps   
+- 🇹🇷 [`Game_Market_Analysis_TR.py`](Game_Market_Analysis_TR.py) : Python script version of the notebook 
+- 🇺🇸 [`Game_Market_Analysis_EN.ipynb`](Game_Market_Analysis_EN.ipynb) : English Jupyter Notebook containing the analysis and modeling steps  
+- 🇺🇸 [`Game_Market_Analysis_EN.py`](Game_Market_Analysis_EN.py) : Python script version of the notebook  
+- 📊 [`Companies.csv`](Companies.csv) : CSV file extracted and created from Wikipedia data
+- 📄 [`README.md`](README.md) : Project description and documentation  
 ---
 
 ## 📊 Key Findings  
