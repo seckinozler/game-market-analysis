@@ -44,7 +44,7 @@ To replicate the analysis:
 - 🐍 🇹🇷 [`Game_Market_Analysis_TR.py`](Game_Market_Analysis_TR.py) : Python script version of the notebook 
 - 📓 🇺🇸 [`Game_Market_Analysis_EN.ipynb`](Game_Market_Analysis_EN.ipynb) : English Jupyter Notebook containing the analysis and modeling steps  
 - 🐍 🇺🇸 [`Game_Market_Analysis_EN.py`](Game_Market_Analysis_EN.py) : Python script version of the notebook 
-- 📊 [`rawg_5000_games_sample.csv`](rawg_5000_games_sample.csv) : Dataset file extracted via RAWG API (top 5000 games by Metacritic)  
+- 📊 [`rawg_5000_games_sample.xlsx`](rawg_5000_games_sample.xlsx) : Dataset file extracted via RAWG API (top 5000 games by Metacritic)  
 - 📄 [`README.md`](README.md) : Project description and documentation
 - 📸 [`screenshots`](screenshots): Folder containing key analysis charts (for README visualization)  
 
