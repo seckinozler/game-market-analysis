@@ -30,10 +30,13 @@ The goal is to understand **genre, platform, developer, and publisher breakdowns
 
 ## 📂 Repository Structure  
 
-- `notebooks/` → Jupyter Notebooks containing the analysis  
-- `data/` → Raw and processed data (e.g., `rawg_5000_games.csv`)  
-- `screenshots/` → Graphs and figures used in this README  
-- `README.md` → Project documentation  
+- 📓 **Game_Market_Analysis_TR.ipynb** : Turkish Jupyter Notebook containing the analysis and modeling steps  
+- 🐍 **Game_Market_Analysis_TR.py** : Python script version of the notebook  
+- 📓 **Game_Market_Analysis_EN.ipynb** : English Jupyter Notebook containing the analysis and modeling steps  
+- 🐍 **Game_Market_Analysis_EN.py** : Python script version of the notebook  
+- 📊 **rawg_5000_games.csv** : Dataset file extracted via RAWG API (top 5000 games by Metacritic)  
+- 📄 **README.md** : Project description and documentation  
+- 📸 **/screenshots/** : Folder containing key analysis charts (for README visualization)  
 
 ---
 
