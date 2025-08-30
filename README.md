@@ -1,110 +1,104 @@
-# 📊 🎮 Game Market Analysis — Metacritic & RAWG API | (Python)
-
-This project aims to analyze the video game market by leveraging the RAWG.io API and focusing on Metacritic scores.
-
----
+# 🎮 Game Market Analysis
 
 ## 📌 Project Overview
-
-This project aims to analyze the video game market by leveraging the RAWG.io API
- and focusing on Metacritic scores.
-The primary objective is to provide insights for developing a new game, by answering questions such as:
-
-Which genres achieve higher success (Metacritic ≥ 84)?
-
-How has quality evolved over time?
-
-Which developers and publishers dominate the market?
-
-Which stores/platforms are most strategic for release?
-
-How do player attention metrics (ratings count & wishlist added) shape demand?
-
-This study provides a structured market overview to guide indie developers in selecting the right genre, release timing, partner publisher, and store strategy.
+This project was created to **analyze the video game market before developing a new game**.  
+The goal is to understand **genre, platform, developer, and publisher breakdowns**, evaluate quality distribution, user interest, and market trends — in order to make strategic decisions for a successful game release.
 
 ---
 
-## 🛠️ Tools Used
+## 🛠 Tools Used  
 
-| Tool             | Purpose                              |
-|------------------------|--------------------------------------------|
-| **Python**             | Data processing, analysis, and modeling    |
-| **Jupyter Notebook**   | Interactive coding and documentation       |
-| **Pandas & NumPy**     | Data manipulation and numerical computations|
-| **Scikit-learn**       | Machine learning models and evaluation metrics |
-| **CatBoost, XGBoost, LightGBM** | Gradient boosting algorithms for churn prediction |
-| **Matplotlib & Seaborn** | Data visualization and plotting          |
-
----
-
-## 📋 Methods Used
-- Data preprocessing and encoding of categorical variables
-- Train-test split for model evaluation
-- Machine learning models including Logistic Regression, Random Forest, XGBoost, LightGBM, and CatBoost
-- Model performance comparison using metrics such as Accuracy, F1-score, ROC AUC
-- Customer segmentation and profiling based on churn risk
-- Visualization of feature importance
+| Tool / Technology | Purpose |
+|-------------------|---------|
+| **Python** | Data collection, processing, and analysis |
+| **Jupyter Notebook** | Interactive exploration and visualization |
+| **Pandas & NumPy** | Data manipulation and numerical analysis |
+| **Matplotlib & Seaborn** | Data visualization |
+| **Requests API** | Data collection from RAWG API |
 
 ---
 
-## 🗂️ Repository Structure
-- [`churn_analysis.ipynb`](churn_analysis.ipynb) : Jupyter Notebook containing the analysis and modeling steps
-- [`churn_analysis.py`](churn_analysis.py) : Python script version of the notebook for those who prefer running the analysis as a standard Python script in their local environment
-- [`data/WA_Fn-UseC_-Telco-Customer-Churn.csv`](WA_Fn-UseC_-Telco-Customer-Churn.csv) : Dataset file (or data access details)
-- [`README.md`](README.md) : Project description and documentation
+## 🔍 Methods Used  
+
+- Data collection from **RAWG API** (Top 5000 games by Metacritic score)  
+- Yearly trend analysis (average Metacritic scores, high-quality game counts)  
+- Genre analysis (average Metacritic, share of 84+ games, user attention metrics)  
+- Developer and publisher segmentation (volume vs. quality)  
+- Store analysis (distribution of games across platforms/stores)  
 
 ---
 
-## 📈 Key Findings
-- Customers in the high-risk segment have churn rates exceeding 80%.
-- Customer tenure (length of service) is a strong factor reducing churn risk.
-- CatBoost and LightGBM models performed best in predicting churn.
-- The analysis supports targeted campaigns for high-risk customers to reduce churn.
+## 📂 Repository Structure  
+
+- `notebooks/` → Jupyter Notebooks containing the analysis  
+- `data/` → Raw and processed data (e.g., `rawg_5000_games.csv`)  
+- `screenshots/` → Graphs and figures used in this README  
+- `README.md` → Project documentation  
 
 ---
 
-## 💡 Recommendations
+## 📊 Key Findings  
 
-Based on the churn analysis and risk segmentation, the following actions are recommended to reduce customer churn and improve retention:
-
-- **Target High-Risk Customers:** Implement personalized offers, discounts, and enhanced customer support for customers identified as high risk.  
-- **Engage Medium-Risk Customers:** Develop loyalty programs and communication campaigns to encourage continued subscription and reduce churn risk.  
-- **Maintain Low-Risk Customers:** Focus on sustaining satisfaction through quality service and regular feedback mechanisms to ensure long-term loyalty.  
-- **Monitor and Update Models:** Continuously monitor churn patterns and update predictive models to adapt to changing customer behaviors.  
-- **Leverage Feature Insights:** Use key factors such as customer tenure and contract type to inform business strategies and tailor interventions.
-
----
-
-### 📁 Dataset Summary
-- Customer demographic and usage data sourced from [Kaggle - Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn?resource=download)  
-- Approximately 7000 customer records with 20+ features.
+- **Pandemic effect:** Average Metacritic scores increased after 2020, but the **number of 84+ top-tier games decreased**.  
+- **By genre:** *Card, Platformer, Shooter* genres show the highest success ratios.  
+- **By developer:** *Nintendo* nearly doubled its rivals in the number of 84+ games released.  
+- **By publisher:** While *Nintendo* and *Microsoft* show both high volume and high quality, some high-volume publishers with lower 84+ ratios could be easier partners for indie developers.  
+- **By store:** *Steam* dominates in volume; however, considering workload vs. return, a suggested order is:  
+  1. **PC (Steam / Epic Games)**  
+  2. **Nintendo or Xbox**  
+  3. **PlayStation** (requires stronger publisher partnership)  
 
 ---
 
-## 📸 Screenshots
+## 💡 Recommendations  
 
-### Customer Churn Distribution by Contract Type
-![Customer Churn Distribution](screenshots/1.png)
-
-### Feature Correlation Matrix
-![Correlation Matrix](screenshots/2.png)
-
-### Model Performance Comparison Across Metrics
-![Model Performance Comparison](screenshots/3.png)
-
-### Customer Distribution and Average Churn Risk by Risk Segment
-![Customer Distribution by Risk Segment](screenshots/4.png)
-
-### Top 5 Most Important Features Influencing Churn Prediction
-![Top 5 Important Features](screenshots/5.png)
+- Treat **84+ Metacritic** as a strategic target for game development.  
+- Focus on genres with proven high success (*Card, Platformer, Shooter*).  
+- Avoid launch windows dominated by **Nintendo / Sony flagship releases**.  
+- For publishing partnerships: prioritize **mid-volume, high-ratio publishers** (balanced opportunity).  
+- Phase store releases to manage workload: start with PC, expand to consoles later.  
 
 ---
 
-## 📬 Contact
+## 📸 Screenshots  
 
-- **GitHub:** [github.com/seckinozler](https://github.com/seckinozler)  
-- **LinkedIn:** [linkedin.com/in/seckinozler](https://www.linkedin.com/in/seckinozler/)  
-- **Website:** [seckinsafakozler.wixsite.com/portfolio](https://seckinsafakozler.wixsite.com/portfolio)
+### Average Metacritic by Year  
+![Average Metacritic by Year](screenshots/avg_metacritic_by_year.png)  
+
+### 84+ Games by Year  
+![84+ Games by Year](screenshots/84plus_by_year.png)  
+
+### Genres – Average Metacritic & 84+ Share  
+![Genre Metacritic and Ratios](screenshots/genre_quality.png)  
+
+### Genres – User Interest (ratings_count & added)  
+![Genre Popularity](screenshots/genre_interest.png)  
+
+### Developer Analysis  
+![Developer Breakdown](screenshots/developer_breakdown.png)  
+
+### Publisher Segmentation  
+![Publisher Segmentation](screenshots/publisher_segmentation.png)  
+
+### Store Analysis  
+![Store Analysis](screenshots/store_analysis.png)  
 
 ---
 
+## 📑 Dataset Summary  
+
+- Source: [RAWG Video Games Database API](https://rawg.io/apidocs)  
+- Dataset size: **5000 games**, ranked by Metacritic score  
+- Key variables:  
+  - `metacritic_x` → Metacritic score  
+  - `genres` → Game genres  
+  - `developers`, `publishers` → Developers & publishers  
+  - `stores` → Platforms/stores released on  
+  - `ratings_count`, `added` → User attention metrics  
+
+---
+
+## 🕹 Closing Note  
+
+Game development is not only strategy and data, but also **passion**.  
+For enthusiasts, we’ve included a special list of **95+ Metacritic “unforgettable classics”**, as inspiration for future projects.  
