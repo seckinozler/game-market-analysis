@@ -28,13 +28,23 @@ The goal is to understand **genre, platform, developer, and publisher breakdowns
 
 ---
 
+## 🌐 How to Get the Data
+This project uses the [RAWG Video Games Database API](https://rawg.io/apidocs).
+Due to usage policies, the dataset itself (CSV export) is **not included** in this repository.
+To replicate the analysis:
+1. Get a free API key from RAWG.
+2. Run the provided Jupyter notebooks (`Game_Market_Analysis_EN.ipynb` or `TR`).
+3. This will generate `data/rawg_5000_games.csv` locally.
+
+---
+
 ## 📂 Repository Structure  
 
 - 📓 🇹🇷 [`Game_Market_Analysis_TR.ipynb`](Game_Market_Analysis_TR.ipynb) : Turkish Jupyter Notebook containing the analysis and modeling steps  
 - 🐍 🇹🇷 [`Game_Market_Analysis_TR.py`](Game_Market_Analysis_TR.py) : Python script version of the notebook 
 - 📓 🇺🇸 [`Game_Market_Analysis_EN.ipynb`](Game_Market_Analysis_EN.ipynb) : English Jupyter Notebook containing the analysis and modeling steps  
 - 🐍 🇺🇸 [`Game_Market_Analysis_EN.py`](Game_Market_Analysis_EN.py) : Python script version of the notebook 
-- 📊 [`rawg_5000_games.csv`](rawg_5000_games.csv) : Dataset file extracted via RAWG API (top 5000 games by Metacritic)  
+- 📊 [`rawg_5000_games_sample.csv`](rawg_5000_games_sample.csv) : Dataset file extracted via RAWG API (top 5000 games by Metacritic)  
 - 📄 [`README.md`](README.md) : Project description and documentation
 - 📸 [`screenshots`](screenshots): Folder containing key analysis charts (for README visualization)  
 
