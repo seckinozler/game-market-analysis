@@ -29,12 +29,15 @@ The goal is to understand **genre, platform, developer, and publisher breakdowns
 ---
 
 ## 🌐 How to Get the Data
-This project uses the [RAWG Video Games Database API](https://rawg.io/apidocs).
-Due to usage policies, the dataset itself (CSV export) is **not included** in this repository.
-To replicate the analysis:
-1. Get a free API key from RAWG.
-2. Run the provided Jupyter notebooks (`Game_Market_Analysis_EN.ipynb` or `TR`).
-3. This will generate `data/rawg_5000_games.csv` locally.
+This project uses the [RAWG Video Games Database API](https://rawg.io/apidocs).  
+
+Due to usage policies, the **full dataset (CSV export of 5000 games)** is **not included** in this repository.  
+Instead, a **sample of 10 rows** (`data/rawg_5000_games_sample.csv`) is provided for demonstration.  
+
+To replicate the analysis on the full dataset:  
+1. Get a free API key from RAWG.  
+2. Run the provided Jupyter notebooks (`Game_Market_Analysis_EN.ipynb` or `TR`).  
+3. This will generate `data/rawg_5000_games.csv` locally. 
 
 ---
 
